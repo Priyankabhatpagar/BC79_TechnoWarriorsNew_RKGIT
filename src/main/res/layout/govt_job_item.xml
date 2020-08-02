@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/govtCardview"
+        >
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="Apply"
+                android:background="@drawable/govt_apply_button"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:id="@+id/bjobUrl"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MP Forest Online Form 2020"
+                android:background="@drawable/title_background"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:id="@+id/JobTitle"
+                android:textSize="23sp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/JobTitle"
+                android:layout_margin="5dp"
+                android:text="Education/Qualification"
+                android:textSize="18sp"
+                android:drawableLeft="@drawable/qualification"
+                android:drawablePadding="5dp"
+                android:id="@+id/Qualification"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Qualification"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/age"
+                android:text="Age"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/Age"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Age"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/location"
+                android:text="Location"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/location"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/location"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/post"
+                android:text="Post"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/post"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/post"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/date"
+                android:text="Start Date"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/govtStart"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/govtStart"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/date"
+                android:text="Last Date"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/govtLast"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/govtLast"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/seat"
+                android:text="Totatal Vacancy"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/govtSeat"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/govtSeat"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/fee"
+                android:text="Fee"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/govtsFee"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/govtsFee"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/summary"
+                android:text="Job Summary"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/govtSummary"
+                android:textStyle="bold"/>
+
+
+        </RelativeLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

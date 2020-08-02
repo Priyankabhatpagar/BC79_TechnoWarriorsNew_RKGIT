@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/pvtCardView"
+        >
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="Apply"
+                android:background="@drawable/pvt_apply"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:id="@+id/pvtJobUrl"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MP Forest Online Form 2020"
+                android:background="@drawable/pvt_title_background"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:id="@+id/pvtJobTitle"
+                android:textSize="23sp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pvtJobTitle"
+                android:layout_margin="5dp"
+                android:text="Education/Qualification"
+                android:textSize="18sp"
+                android:drawableLeft="@drawable/qualification"
+                android:drawablePadding="5dp"
+                android:id="@+id/pvtQualification"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pvtQualification"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/age"
+                android:text="Age"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/pvtAge"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pvtAge"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/location"
+                android:text="Location"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+               android:id="@+id/pvtlocation"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pvtlocation"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/post"
+                android:text="Post"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/pvtPost"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pvtPost"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/company_name"
+                android:text="Company Name"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/pvtCompany"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pvtCompany"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/seat"
+                android:text="Total Vacancy"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/pvtSeat"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pvtSeat"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/contact"
+                android:text="Contacts Details"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/pvtContacts"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pvtContacts"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/summary"
+                android:text="Summary"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/pvtSummary"
+                android:textStyle="bold"/>
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "916087896144",
+    "firebase_url": "https://digital-india-portal.firebaseio.com",
+    "project_id": "digital-india-portal",
+    "storage_bucket": "digital-india-portal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916087896144:android:71e5bf6fa08cc8f8e6b955",
+        "android_client_info": {
+          "package_name": "com.DigitalIndiaPortal.digitalindiaportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916087896144-rs6kbh22q2seo1h23r764mf8pv2r883n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWp2a9W8AuXW6EZQLaTGrQa5ZbgR87LFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916087896144-rs6kbh22q2seo1h23r764mf8pv2r883n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
