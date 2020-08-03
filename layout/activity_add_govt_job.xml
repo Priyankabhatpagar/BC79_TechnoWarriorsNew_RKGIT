@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddGovtJob">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Government Job"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/addtitle"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/title_background"/>
+    <ScrollView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:background="@drawable/edit_text_background"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:textAlignment="center"
+                android:textColorHint="#05000C"
+                android:id="@+id/addgovtTtitle"
+                android:hint="Enter Job Title"/>
+            <EditText
+                android:background="@drawable/edit_text_background"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:textAlignment="center"
+                android:layout_below="@+id/addgovtTtitle"
+                android:textColorHint="#05000B"
+                android:id="@+id/addgovtQualification"
+                android:hint="Enter Job Quallification"/>
+            <EditText
+                android:background="@drawable/edit_text_background"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:textAlignment="center"
+                android:layout_below="@+id/addgovtQualification"
+                android:textColorHint="#070010"
+                android:id="@+id/addgovtAge"
+                android:hint="Enter Job Age"/>
+            <EditText
+                android:background="@drawable/edit_text_background"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:textAlignment="center"
+                android:layout_below="@+id/addgovtAge"
+                android:textColorHint="#070010"
+                android:id="@+id/addgovtlocation"
+                android:hint="Enter Job Location"/>
+            <EditText
+                android:background="@drawable/edit_text_background"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:textAlignment="center"
+                android:layout_below="@+id/addgovtlocation"
+                android:textColorHint="#070010"
+                android:id="@+id/addgovtPost"
+                android:hint="Enter Post Names"/>
+            <EditText
+                android:background="@drawable/edit_text_background"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:textAlignment="center"
+                android:layout_below="@+id/addgovtPost"
+                android:textColorHint="#070010"
+                android:id="@+id/addgovtSummary"
+                android:hint="Write Job Summary"/>
+            <EditText
+                android:background="@drawable/edit_text_background"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:textAlignment="center"
+                android:layout_below="@+id/addgovtSummary"
+                android:textColorHint="#070010"
+                android:id="@+id/addgovtStart"
+                android:hint="Enter Start date"/>
+            <EditText
+                android:background="@drawable/edit_text_background"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:textAlignment="center"
+                android:layout_below="@+id/addgovtStart"
+                android:textColorHint="#070010"
+                android:id="@+id/addgovtLast"
+                android:hint="Enter Last date"/>
+            <EditText
+                android:background="@drawable/edit_text_background"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:textAlignment="center"
+                android:layout_below="@+id/addgovtLast"
+                android:textColorHint="#070010"
+                android:id="@+id/addgovtSeat"
+                android:hint="Enter Total Vacancy"/>
+            <EditText
+                android:background="@drawable/edit_text_background"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:textAlignment="center"
+                android:layout_below="@+id/addgovtSeat"
+                android:textColorHint="#070010"
+                android:id="@+id/addgovtFee"
+                android:hint="Enter Application fee"/>
+            <EditText
+                android:background="@drawable/edit_text_background"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:textAlignment="center"
+                android:layout_below="@+id/addgovtFee"
+                android:textColorHint="#070010"
+                android:id="@+id/addUrl"
+                android:hint="Enter url"/>
+
+
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/addUrl"
+                android:text="Submit Job"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/submitGovtjob"
+                android:background="@drawable/button_background"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

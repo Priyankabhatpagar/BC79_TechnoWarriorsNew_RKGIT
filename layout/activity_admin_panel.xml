@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPanel"
+    android:background="#ED2542">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/boss"
+        android:layout_centerInParent="true"
+        android:id="@+id/img5"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Admin Panel"
+        android:layout_below="@id/img5"
+        android:layout_centerInParent="true"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:id="@+id/demo2"
+        android:textSize="22sp"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="LogOut"
+        android:id="@+id/adminLogOut"
+        android:layout_below="@id/demo2"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_background"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="ADD FreeLancer Work"
+        android:layout_centerInParent="true"
+        android:id="@+id/freelancer"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_background"
+        android:textColor="#ffff"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="ADD Tender  Work"
+        android:layout_centerInParent="true"
+        android:id="@+id/clickTender"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/freelancer"
+        android:background="@drawable/button_background"
+        android:textColor="#ffff"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="ADD Business Idea"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/clickTender"
+        android:id="@+id/clickBus"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_background"
+        android:textColor="#ffff"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="ADD Cource and Training"
+        android:layout_centerInParent="true"
+        android:id="@+id/Course"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/clickBus"
+        android:background="@drawable/button_background"
+        android:textColor="#ffff"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

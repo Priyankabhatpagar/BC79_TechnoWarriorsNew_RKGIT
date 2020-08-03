@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+
+        >
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="CHeck"
+                android:background="@drawable/pvt_button_background"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:id="@+id/tenUrl"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All Type Tender"
+                android:background="@drawable/title_background"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:id="@+id/tenTitle"
+                android:textSize="23sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tenTitle"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/email"
+                android:text="Email Address"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/tenEmail"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tenEmail"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/contact"
+                android:text="Phone Number"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/tenPhone"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tenPhone"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/summary"
+                android:text="Description"
+                android:maxLines="3"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/tenDes"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tenDes"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/post"
+                android:text="Other Details"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/tenDetail"
+                android:textStyle="bold"/>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+

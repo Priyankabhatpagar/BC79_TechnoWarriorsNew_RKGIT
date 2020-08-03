@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserDetail"
+    android:background="@color/backgrouund">
+    
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Welcome User-"
+    android:textColor="@android:color/white"
+    android:textStyle="bold"
+    android:padding="4dp"
+    android:background="@drawable/text_background"
+    android:layout_marginTop="30dp"
+    android:layout_marginStart="10dp"
+    android:textSize="22sp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="10dp"
+        android:text="Log Out"
+        android:textColor="#FFFF"
+        android:id="@+id/userLogout"
+        android:background="@drawable/pvt_button_background"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:text="FreeLancing"
+        android:id="@+id/freeLancing"
+        android:textColor="#ffff"
+        android:background="@drawable/pvt_button_background"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:text="Tender"
+        android:layout_below="@+id/freeLancing"
+        android:id="@+id/Tender"
+        android:textColor="#ffff"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_background"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:text="Business And Start-up"
+        android:layout_below="@+id/Tender"
+        android:id="@+id/BandS"
+        android:textColor="#ffff"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/pvt_button_background"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:text="Training and COurses"
+        android:layout_below="@+id/BandS"
+        android:id="@+id/TandC"
+        android:textColor="#ffff"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_background"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:text="Finance"
+        android:layout_below="@+id/TandC"
+        android:id="@+id/finance"
+        android:textColor="#ffff"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/pvt_button_background"
+        android:textStyle="bold"/>
+
+
+
+
+
+</RelativeLayout>

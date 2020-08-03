@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFreeLancing"
+    android:background="#ed2542">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Add Title"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:id="@+id/addFreeTitle"
+        android:background="@drawable/edit_text_background"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Add Email"
+        android:layout_below="@id/addFreeTitle"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:id="@+id/addFreeEmail"
+        android:background="@drawable/edit_text_background"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Add Phone Number"
+        android:layout_below="@id/addFreeEmail"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:id="@+id/addFreePhone"
+        android:background="@drawable/edit_text_background"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Add Description"
+        android:layout_below="@id/addFreePhone"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:id="@+id/addFreeDes"
+        android:background="@drawable/edit_text_background"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Add Other Detail"
+        android:textColor="#ffff"
+        android:layout_below="@id/addFreeDes"
+        android:textColorHint="#ffff"
+        android:id="@+id/addFreeDetail"
+        android:background="@drawable/edit_text_background"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Your Website"
+        android:textColor="#ffff"
+        android:layout_below="@id/addFreeDetail"
+        android:textColorHint="#ffff"
+        android:id="@+id/addFreeUrl"
+        android:background="@drawable/edit_text_background"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/addFreeUrl"
+        android:text="Add FreeLancing Work"
+        android:background="@drawable/button_background"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:id="@+id/addFreeWork"/>
+
+
+</RelativeLayout>

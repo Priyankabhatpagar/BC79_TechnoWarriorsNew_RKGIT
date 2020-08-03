@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFreeLancing"
+    android:background="#ed2542">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Add Title"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:id="@+id/addBusTitle"
+        android:background="@drawable/edit_text_background"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Add Email"
+        android:layout_below="@id/addBusTitle"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:id="@+id/addBusEmail"
+        android:background="@drawable/edit_text_background"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Add Phone Number"
+        android:layout_below="@id/addBusEmail"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:id="@+id/addbusPhone"
+        android:background="@drawable/edit_text_background"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Add Description"
+        android:layout_below="@id/addbusPhone"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:id="@+id/addBusDes"
+        android:background="@drawable/edit_text_background"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Add Other Detail"
+        android:textColor="#ffff"
+        android:layout_below="@id/addBusDes"
+        android:textColorHint="#ffff"
+        android:id="@+id/addBusDetail"
+        android:background="@drawable/edit_text_background"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Your Website"
+        android:textColor="#ffff"
+        android:layout_below="@id/addBusDetail"
+        android:textColorHint="#ffff"
+        android:id="@+id/addBusUrl"
+        android:background="@drawable/edit_text_background"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/addBusUrl"
+        android:text="Add Business Idea"
+        android:background="@drawable/button_background"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:id="@+id/addBusCLick"/>
+
+
+</RelativeLayout>

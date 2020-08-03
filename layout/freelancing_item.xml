@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/freeCardView"
+        >
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="Apply"
+                android:background="@drawable/pvt_button_background"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:id="@+id/freeUrl"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Work Form Home Android Development"
+                android:background="@drawable/pvt_title_background"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:id="@+id/freeTitle"
+                android:textSize="23sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/freeTitle"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/email"
+                android:text="Email Address"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/freeEmail"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/freeEmail"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/contact"
+                android:text="Phone Number"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/freePhone"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/freePhone"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/summary"
+                android:text="Description"
+                android:maxLines="3"
+                android:textSize="18sp"
+                android:drawablePadding="5dp"
+                android:id="@+id/freeDescription"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/freeDescription"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/post"
+                android:text="Other Details"
+                android:textSize="18sp"
+                android:maxLines="3"
+                android:drawablePadding="5dp"
+                android:id="@+id/freeDetail"
+                android:textStyle="bold"/>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
